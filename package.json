@@ -1,0 +1,23 @@
+{
+    "name": "moneyconvertor",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "A webpage that converts money.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "next": "^15.5.9",
+        "react": "^19.2.3",
+        "react-dom": "^19.2.3"
+    },
+    "devDependencies": {
+        "@types/node": "25.0.3",
+        "@types/react": "^19.2.7",
+        "@types/react-dom": "^19.2.3",
+        "typescript": "5.9.3"
+    }
+}
