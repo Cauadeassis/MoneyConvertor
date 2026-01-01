@@ -80,7 +80,7 @@ export default function Page() {
             {result !== null && (
                 <footer>
                     <span>
-                        {amount} {Number(amount) === 1 ? "real equivale" : "reais equivalem"} a
+                        {amount} {Number(amount) === 1 ? "real equivale a" : "reais equivalem a"}
                     </span>
                     <h2>{result.toFixed(2)} {targetName}</h2>
                 </footer>

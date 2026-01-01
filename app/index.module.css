@@ -86,35 +86,32 @@
                 }
             }
         }
+    }
 
-        & footer {
-            background-color: #1f2151;
-            padding: 2.5rem;
-            max-height: 196px;
-            text-align: center;
-            display: none;
-            overflow-y: scroll;
+    & footer {
+        background-color: #141534;
+        padding: 2.5rem;
+        max-height: 196px;
+        text-align: center;
+        width: 480px;
+        border-radius: 1.5rem;
+        border: 1px solid #2f3279;
 
-            & span {
-                color: #7d8dec;
-                font-size: 1rem;
-                font-family: "IBM Plex Mono", monospace;
-                margin-bottom: 0.5rem;
-                line-height: 1.25rem;
-            }
+        & span {
+            color: #7d8dec;
+            font-size: 1rem;
+            font-family: "IBM Plex Mono", monospace;
+            margin-bottom: 0.5rem;
+            line-height: 1.25rem;
+        }
 
-            & h1 {
-                color: #f1f2f6;
-                font-weight: 700;
-                font-size: 2rem;
-                line-height: 3rem;
-                word-break: break-all;
-            }
+        & h2 {
+            color: #f1f2f6;
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 3rem;
+            word-break: break-all;
         }
     }
 
-}
-
-.show-result {
-    display: block;
 }
