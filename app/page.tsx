@@ -65,7 +65,7 @@ export default function Page() {
         <div className={styles.body}>
             <img src="/icons/logo.svg" alt="Convert logo" />
 
-            <main>
+            <main className={styles.layout}>
                 <label htmlFor="amount">valor em reais</label>
                 <input type="text"
                     name="amount"
@@ -94,7 +94,7 @@ export default function Page() {
                 </select>
             </main>
             {result !== null && (
-                <footer>
+                <footer className={styles.layout}>
                     <span>
                         {amount} {Number(amount) === 1 ? "real equivale a" : "reais equivalem a"}
                     </span>

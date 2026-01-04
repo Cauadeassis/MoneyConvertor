@@ -1,6 +1,6 @@
 .body {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("/images/bg.png");
     background-size: contain;
     display: flex;
@@ -11,7 +11,7 @@
     color: #f1f2f6;
 
     & main {
-        width: 480px;
+        width: min(70%, 30rem);
         border-radius: 1.5rem;
         border: 1px solid #2f3279;
         overflow-y: hidden;
@@ -86,11 +86,12 @@
     }
 
     & footer {
+
         background-color: #141534;
         padding: 2.5rem;
-        max-height: 196px;
+        max-height: 12rem;
         text-align: center;
-        width: 480px;
+        width: min(70%, 30rem);
         border-radius: 1.5rem;
         border: 1px solid #2f3279;
 
@@ -110,5 +111,4 @@
             word-break: break-all;
         }
     }
-
 }
